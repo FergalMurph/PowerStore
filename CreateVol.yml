@@ -1,6 +1,5 @@
 tasks:
 - name: Create Single Volume
-  register: result_vol
   dellemc_powerstore_volume:
     array_ip: "192.168.1.30"
     user: "admin"
