@@ -1,1 +1,12 @@
-bla bla blawert
+tasks:
+- name: Create Single Volume
+  register: result_vol
+  dellemc_powerstore_volume:
+    array_ip: "192.168.1.30"
+    user: "admin"
+    password: "Password123!"
+    verifycert: False
+    vol_name: "Ansible_Vol"
+    size: "15"
+    cap_unit: "GB"
+    state: present
