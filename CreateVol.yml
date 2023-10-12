@@ -1,3 +1,8 @@
+---
+- name: Creation of Single Vol
+  hosts: localhost
+  connection: local
+
 tasks:
 - name: Create Single Volume
   dellemc_powerstore_volume:
