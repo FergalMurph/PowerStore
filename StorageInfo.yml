@@ -4,12 +4,12 @@
   connection: local
 
 - name: Get list of volumes, volume groups, hosts, host groups and node
-  dellemc.powerstore.info:
-    array_ip: "192.168.1.30"
-    validate_certs: "false"
-    user: "admin"
-    password: "Password123!"
-    gather_subset:
-      - vol
-      - vg
-      - node
+    dellemc.powerstore.info:
+      array_ip: "192.168.1.30"
+      validate_certs: "false"
+      user: "admin"
+      password: "Password123!"
+      gather_subset:
+        - vol
+        - vg
+        - node
