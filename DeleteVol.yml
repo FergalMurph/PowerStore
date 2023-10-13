@@ -10,5 +10,5 @@
       user: "admin"
       password: "Password123!"
       verifycert: False
-      vol_id: "3"
+      vol_name: "AnsibleVolClone"
       state: present
