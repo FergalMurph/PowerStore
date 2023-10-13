@@ -1,9 +1,15 @@
-- name: Create volume group
-  dellemc.powerstore.volumegroup:
-    array_ip: "192.168.1.30"
-    validate_certs: "false"
-    user: "admin"
-    password: "Password123!"
-    vg_name: "AnsibleVG"
-    description: "This volume group is for ansible"
-    state: "present"
+---
+- name: Delete Vol
+  hosts: PowerStore
+  connection: local
+
+  tasks:
+  - name: Create volume group
+    dellemc.powerstore.volumegroup:
+      array_ip: "192.168.1.30"
+      validate_certs: "false"
+      user: "admin"
+      password: "Password123!"
+      vg_name: "AnsibleVG"
+      description: "This volume group is for ansible"
+      state: "present"

@@ -1,3 +1,9 @@
+---
+- name: Delete Vol
+  hosts: PowerStore
+  connection: local
+
+  tasks:
 - name: Add volumes to volume group
   dellemc.powerstore.volumegroup:
     array_ip: "192.168.1.30"
