@@ -3,7 +3,8 @@
   hosts: PowerStore
   connection: local
 
-- name: Get list of volumes, volume groups, hosts, host groups and node
+  tasks:
+  - name: Get list of volumes, volume groups and node
     dellemc.powerstore.info:
       array_ip: "192.168.1.30"
       validate_certs: "false"
