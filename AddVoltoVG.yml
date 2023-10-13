@@ -1,0 +1,11 @@
+- name: Add volumes to volume group
+  dellemc.powerstore.volumegroup:
+    array_ip: "192.168.1.30"
+    validate_certs: "false"
+    user: "admin"
+    password: "Password123!"
+    vg_name: "AnsibleVG"
+    state: "present"
+    volumes:
+      - "Ansible_Vol"
+    vol_state: "present-in-group"
