@@ -1,5 +1,5 @@
 ---
-- name: Delete Vol
+- name: Create Volume Group
   hosts: PowerStore
   connection: local
 

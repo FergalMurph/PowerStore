@@ -1,5 +1,5 @@
 ---
-- name: Delete Vol
+- name: Add Vol to VG
   hosts: PowerStore
   connection: local
 
