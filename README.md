@@ -13,6 +13,10 @@ Welcome to the PowerStore - Management and Administration Hands-on Lab. This han
 - PowerStore Monitoring
 
 ## PowerStore Management
+In this module, you will login to the PowerStore interface called PowerStore Manager. You will review the settings of the PowerStore system, create custom dashboards, and review the system view.
+
+### PowerStore Manager Dashboard
+
 ## PowerStore Monitoring
 ## PowerStore Security
 ## PowerStore Provisioning for Block
