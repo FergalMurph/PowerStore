@@ -14,6 +14,15 @@ Welcome to the PowerStore - Management and Administration Hands-on Lab. This han
 
 ## PowerStore Management
 In this module, you will login to the PowerStore interface called PowerStore Manager. You will review the settings of the PowerStore system, create custom dashboards, and review the system view.
+If you are starting the lab with this section, you will have to first login to the PowerStore Manager. Double-click PowerStore on the desktop.
+Once the PowerStore Manager opens, notice that the first thing that is shown is a login banner message. We will show later in this lesson how to enable and customize it.
+Login to PowerStore Manager with the following settings:
+
+- User: **admin**
+
+- Password: **Password123!**
+
+Click **"Log In"**
 
 ### PowerStore Manager Dashboard
 
