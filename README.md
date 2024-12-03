@@ -21,6 +21,7 @@ Once the PowerStore Manager opens, notice that the first thing that is shown is 
 Login to PowerStore Manager with the following settings:
 - User: **admin**
 - Password: **Password123!**
+  
 Click **"Log In"**
 
 ## PowerStore Monitoring
