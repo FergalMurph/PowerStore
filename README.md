@@ -24,6 +24,8 @@ Login to PowerStore Manager with the following settings:
   
 Click **"Log In"**
 
+![Screenshot 2024-11-05 141641](https://github.com/user-attachments/assets/8970806a-b9c3-4b86-8f33-eec11e21507b)
+
 ## PowerStore Monitoring
 ## PowerStore Security
 ## PowerStore Provisioning for Block
