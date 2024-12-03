@@ -6,15 +6,11 @@ Welcome to the PowerStore - Management and Administration Hands-on Lab. This han
 
 **Objective:** The objective of this lab is to familiarize you with the capabilities of PowerStore, allowing you to become familiar with:
 
--PowerStore Management
-
--PowerStore Security
-
--PowerStore Provisioning for Block Resources
-
--PowerStore Provisioning for File Resources
-
--PowerStore Monitoring
+- PowerStore Management
+- PowerStore Security
+- PowerStore Provisioning for Block Resources
+- PowerStore Provisioning for File Resources
+- PowerStore Monitoring
 
 ## PowerStore Management
 ## PowerStore Monitoring
